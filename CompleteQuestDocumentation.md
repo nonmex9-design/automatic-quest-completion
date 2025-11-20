@@ -7,9 +7,13 @@ How to use this script:
 You'll want to edit settings.json file first:
 
 macOS: ~/Library/Application Support/discord/settings.json-
+
 Windows: %APPDATA%\Discord\settings.json-
+
 Linux: ~/.config/discord/settings.json-
+
 (or ~/.var/app/com.discordapp.Discord/config/discord/settings.json if you use Flatpak to install Discord)-
+
 and then add this following line:
 
 "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
