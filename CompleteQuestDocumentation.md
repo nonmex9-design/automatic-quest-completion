@@ -6,16 +6,16 @@
 How to use this script:
 You'll want to edit settings.json file first:
 
-macOS: ~/Library/Application Support/discord/settings.json
-Windows: %APPDATA%\Discord\settings.json
-Linux: ~/.config/discord/settings.json
-(or ~/.var/app/com.discordapp.Discord/config/discord/settings.json if you use Flatpak to install Discord)
+macOS: ~/Library/Application Support/discord/settings.json-
+Windows: %APPDATA%\Discord\settings.json-
+Linux: ~/.config/discord/settings.json-
+(or ~/.var/app/com.discordapp.Discord/config/discord/settings.json if you use Flatpak to install Discord)-
 and then add this following line:
 
 "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
 then relaunch Discord.
 Now you can press Ctrl + Shift + I in Discord app to access DevTools
--
+
 1. Accept a quest under Discover -> Quests
 2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
 3. Go to the `Console` tab
